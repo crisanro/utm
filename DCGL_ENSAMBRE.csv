@@ -1,0 +1,17 @@
+row;col;trt1;trt2;y
+F1;O1;beta;c;10
+F1;O2;gamma;b;10
+F1;O3;delta;d;12
+F1;O4;alfa;a;7
+F2;O1;alfa;b;8
+F2;O2;delta;c;15
+F2;O3;gamma;a;7
+F2;O4;beta;d;14
+F3;O1;delta;a;6
+F3;O2;alfa;d;14
+F3;O3;beta;b;11
+F3;O4;gamma;c;13
+F4;O1;gamma;d;11
+F4;O2;beta;a;8
+F4;O3;alfa;c;10
+F4;O4;delta;b;8
