@@ -6,15 +6,15 @@ const port = process.env.PORT || 3000;
 
 // Configurar AWS SDK con DigitalOcean Spaces
 const s3 = new AWS.S3({
-  accessKeyId: 'your-access-key',
-  secretAccessKey: 'your-secret-key',
-  endpoint: 'https://your-region.digitaloceanspaces.com',
+  accessKeyId: 'DO00B9T9ZTDU84NWRQ4Y',
+  secretAccessKey: 'IQW075hdRwvEWpYNh+ty0u1COek8AnV49or0Sx9tucg',
+  endpoint: 'https://nyc3.digitaloceanspaces.com',
   signatureVersion: 'v4',
 });
 
 app.get('/generate-presigned-url', (req, res) => {
   const params = {
-    Bucket: 'your-space-name',
+    Bucket: 'growconex25app',
     Key: req.query.filename,
     Expires: 3600, // 1 hora
   };
