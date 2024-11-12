@@ -1,0 +1,12 @@
+{
+  "name": "digitalocean-signed-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "aws-sdk": "^2.1342.0"
+  }
+}
